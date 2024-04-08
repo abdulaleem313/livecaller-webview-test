@@ -13,6 +13,11 @@
             e=document.getElementsByTagName(t)[0];e ? e.parentNode.insertBefore(s,e) : k.insertBefore(s, l.nextSibling);
             s.onload=function(){r(w[c]);};});return p;
     })(window,'script','LiveCaller').then(function(){
+        try{
+            LiveCaller.config.merge({"widget":{"id":"d82cdb36-cf1f-4c95-84f6-c89b5412dae6"},"app":{"locale":"ka"}});
+            LiveCaller.liftOff();
+        }catch(e){
+        }
        
     });
 </script>
